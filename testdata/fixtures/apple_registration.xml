@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<entry xmlns="http://www.w3.org/2005/Atom">
+  <content type="application/xml">
+    <AppleRegistrationDescription xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.microsoft.com/netservices/2010/10/servicebus/connect">
+      <RegistrationId>1234567890123456789-1234567890123456</RegistrationId>
+      <ETag>3</ETag>
+      <Tags>user:123,premium</Tags>
+      <DeviceToken>a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2</DeviceToken>
+    </AppleRegistrationDescription>
+  </content>
+</entry>

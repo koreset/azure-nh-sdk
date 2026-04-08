@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NotificationDetails xmlns="http://schemas.microsoft.com/netservices/2010/10/servicebus/connect">
+  <NotificationId>12345</NotificationId>
+  <State>Completed</State>
+  <EnqueueTime>2025-06-01T12:00:00.000Z</EnqueueTime>
+  <StartTime>2025-06-01T12:00:01.000Z</StartTime>
+  <EndTime>2025-06-01T12:00:05.000Z</EndTime>
+  <NotificationBody>{"aps":{"alert":{"title":"Test","body":"Notification"}}}</NotificationBody>
+  <TargetPlatforms>apple</TargetPlatforms>
+  <ApnsOutcomeCounts>
+    <Outcome>
+      <Name>Success</Name>
+      <Count>950</Count>
+    </Outcome>
+    <Outcome>
+      <Name>WrongToken</Name>
+      <Count>30</Count>
+    </Outcome>
+    <Outcome>
+      <Name>Dropped</Name>
+      <Count>20</Count>
+    </Outcome>
+  </ApnsOutcomeCounts>
+</NotificationDetails>

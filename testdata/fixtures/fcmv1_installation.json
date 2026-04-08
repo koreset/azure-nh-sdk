@@ -1,0 +1,12 @@
+{
+  "installationId": "device-001",
+  "platform": "fcmv1",
+  "pushChannel": "eXaMpLe-FcM-tOkEn",
+  "expiredPushChannel": false,
+  "tags": ["user:456", "android"],
+  "templates": {
+    "genericAlert": {
+      "body": "{\"message\":{\"notification\":{\"title\":\"$(title)\",\"body\":\"$(message)\"}}}"
+    }
+  }
+}

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Error>
+  <Code>401</Code>
+  <Detail>MalformedToken: The credentials contained in the authorization header are not in the WRAP format.</Detail>
+</Error>
